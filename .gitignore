@@ -10,3 +10,6 @@ playwright-report/
 *.log
 .data/
 deployments/*.json
+
+# Separate OpenAI Sites source checkout
+sites-demo/

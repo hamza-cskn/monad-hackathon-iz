@@ -2,6 +2,14 @@
 
 Örnek TL bağışı yapma, kurumun harcamalarını belgeleme ve ayrı denetçi hesabıyla inceleme demosu. Kayıtlar kullanıcının `http://127.0.0.1:8545` Anvil ağına bağlıdır (chain ID `31337`).
 
+## Herkese açık hackathon demosu
+
+[OpenAI Sites üzerinde demoyu aç](https://monad-hackathon-iz.mtobliviate.chatgpt.site).
+
+Bu sürüm açıkça etiketlenmiş etkileşimli simülasyondur: gerçek ödeme veya blokzincir işlemi yapmaz. Bağışlar, harcamalar ve iki aşamalı denetim kayıtları D1 üzerinde; örnek belgeler R2 üzerinde saklanır. Her ziyaretçi kurum ve denetçi rollerini deneyebilir; yalnızca örnek belgeler yükleyin.
+
+Yayınlanan sürümün kaynağı ayrı OpenAI Sites deposundadır; bu çalışma alanındaki `sites-demo/` ayrı checkout olduğu için GitHub deposuna dahil edilmez. Bu GitHub deposu aşağıdaki gerçek yerel Anvil entegrasyonunu içerir.
+
 ## Demoyu aç
 
 **Web:** http://127.0.0.1:5173  
