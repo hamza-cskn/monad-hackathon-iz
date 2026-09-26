@@ -1,0 +1,40 @@
+{
+  "name": "iz-donation-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.ts",
+    "dev:web": "vite --host 127.0.0.1",
+    "dev:api": "node --watch server/index.ts",
+    "setup:local": "node scripts/deploy-local.ts && node scripts/seed-local.ts",
+    "deploy:local": "node scripts/deploy-local.ts",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node scripts/test-local.ts",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "@ethereum-attestation-service/eas-contracts": "1.9.0",
+    "@fastify/cookie": "11.1.2",
+    "@tanstack/react-query": "5.104.0",
+    "fastify": "5.12.5",
+    "lucide-react": "^1.48.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "viem": "^2.56.9",
+    "wagmi": "2.19.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  },
+  "engines": {
+    "node": ">=26.0.0"
+  }
+}
